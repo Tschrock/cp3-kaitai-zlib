@@ -20,8 +20,26 @@
     "build": "tsc",
     "lint": "eslint ."
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tschrock/cp3-kaitai-zlib.git"
+  },
+  "keywords": [
+    "kaitai",
+    "struct",
+    "zlib",
+    "pako",
+    "processor",
+    "gzip",
+    "deflate",
+    "inflate"
+  ],
+  "author": "Tyler Schrock <tschrock123@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tschrock/cp3-kaitai-zlib/issues"
+  },
+  "homepage": "https://github.com/Tschrock/cp3-kaitai-zlib#readme",
   "dependencies": {
     "pako": "^1.0.11"
   },

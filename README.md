@@ -84,7 +84,7 @@ seq:
     process: cp3.kaitai.zlib.inflate(_io)
 ```
 
-### cp3.kaitai.zlib.inflate(_io, windowBits)
+### cp3.kaitai.zlib.inflate(stream, windowBits)
 
 Decompresses the stream using the specified `windowBits` until the stream ends or the end of the compressed data is reached.
 
