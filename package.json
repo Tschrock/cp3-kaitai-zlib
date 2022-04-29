@@ -1,0 +1,35 @@
+{
+  "name": "cp3-kaitai-zlib",
+  "version": "1.0.0",
+  "description": "Zlib processors for Kaitai Struct.",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./Inflate": "./dist/Inflate.js",
+    "./InflateGzip": "./dist/InflateGzip.js",
+    "./InflateRaw": "./dist/InflateRaw.js",
+    "./InflateZlib": "./dist/InflateZlib.js"
+  },
+  "files": [
+    "dist/*",
+    "types/*",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pako": "^1.0.11"
+  },
+  "devDependencies": {
+    "@types/pako": "^1.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint": "^8.14.0",
+    "typescript": "^4.6.4"
+  }
+}
